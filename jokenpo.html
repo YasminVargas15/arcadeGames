@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jokenpô</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="game-body">
+
+    <section class="game-page">
+
+        <div class="game-box">
+
+            <h1>✊ Jokenpô</h1>
+
+            <div class="game-buttons">
+
+                <button onclick="jogar('Pedra')">
+                    ✊ Pedra
+                </button>
+
+                <button onclick="jogar('Papel')">
+                    ✋ Papel
+                </button>
+
+                <button onclick="jogar('Tesoura')">
+                    ✌️ Tesoura
+                </button>
+
+            </div>
+
+            <div id="resultado" class="result"></div>
+
+            <div class="score">
+                Você:
+                <span id="player">0</span>
+
+                |
+
+                Máquina:
+                <span id="cpu">0</span>
+            </div>
+
+            <a href="index.html" class="back">
+                ← Voltar
+            </a>
+
+        </div>
+
+    </section>
+
+    <script src="jokenpo.js"></script>
+
+</body>
+</html>
