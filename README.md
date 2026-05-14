@@ -190,7 +190,7 @@ no navegador.
 
 # 👨‍💻 Autor
 
-Desenvolvido por Yasmin Vargas e Larah Matos 💜
+Desenvolvido por Yasmin Vargas e Larah Matos 💜🩷
 
 ---
 
